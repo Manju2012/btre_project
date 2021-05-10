@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 {% load static %}
+{% load humanize %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>BT real Estate</title>
+    <title>BT real Estate | {% block title %} {% endblock %}</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{% static 'css/all.css' %}">
     <!-- Bootstrap -->
